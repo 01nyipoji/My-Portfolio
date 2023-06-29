@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Ysabeau Infant', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .body{
@@ -11,7 +11,7 @@
 
 h1{
     color: rgb(240, 33, 102);
-    font-size: 80px;
+    font-size: 70px;
 }
 
 span{
@@ -47,14 +47,16 @@ ul li{
     align-items: center;
 }
 
+
 .tools{
-    width: 300px;
+    width: 280px;
     height: auto;
 }
 
 .me{
-    width: 400px;
+    width: 380px;
     height: auto;
+    box-shadow: 15px 15px rgb(240, 33, 102);
 }
 
 .box{
@@ -63,13 +65,20 @@ ul li{
     background-color: rgb(240, 33, 102);
 }
 
+
+
 .footer{
+    padding-top: 55px;
     text-align: center;
 }
 
-.icon{
-    padding-top: 20px;
-    
+
+.icons{
+    text-align: center;
+    padding-left: 550px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .fa-square-facebook{
