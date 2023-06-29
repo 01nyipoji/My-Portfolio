@@ -47,7 +47,14 @@ ul li{
     align-items: center;
 }
 
-
+.fa-star-of-life{
+    color: rgb(240, 33, 102);
+    position: absolute;
+    bottom: 130px;
+    right: 200px;
+    font-size: 200px;
+    z-index: -2;
+}
 .tools{
     width: 280px;
     height: auto;
