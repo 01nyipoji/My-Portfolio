@@ -14,21 +14,21 @@
 
 h1{
     color: #FF408C;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 700;
     line-height: 132%;
     letter-spacing: -1.6px;
 }
 
 .nyi{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 132%;
     letter-spacing: -0.72px;
 }
 
 h3{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     line-height: normal;
 }
@@ -73,13 +73,15 @@ ul li{
     align-items: center;
 }
 
-.fa-star-of-life{
+.vector{
     color: #FF408C;
+    width: 158.28px;
+    height: 161.847px;
+    flex-shrink: 0;
     position: absolute;
-    bottom: 130px;
-    right: 200px;
-    font-size: 200px;
-    z-index: -2;
+    bottom: -100px;
+    right: 100px;
+    z-index: -0.5;
 }
 
 .ic{
@@ -95,7 +97,6 @@ ul li{
 .me{
     width: 480px;
     height: 700px;
-    flex-shrink: 0;
     object-fit: cover;
     box-shadow: 15px 15px  #FF408C;
 }
