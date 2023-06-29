@@ -13,8 +13,31 @@ h1{
     color: rgb(240, 33, 102);
     font-size: 80px;
 }
+
 span{
     color: rgb(240, 33, 102);
+}
+
+ul{
+    gap: 16px;
+    padding-top: 35px;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+.toool{
+    padding-top: 25px;
+}
+
+.design{
+    font-size: 21px;
+}
+
+.copyrights{
+    font-size: 10px;
 }
 
 .main{
@@ -38,6 +61,15 @@ span{
     width: 500px;
     height: auto;
     background-color: rgb(240, 33, 102);
+}
+
+.footer{
+    text-align: center;
+}
+
+.icon{
+    padding-top: 20px;
+    
 }
 
 .fa-square-facebook{
