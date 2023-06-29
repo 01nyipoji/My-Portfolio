@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color: #3A3A3A;
+    background: #FFF;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
@@ -13,7 +14,7 @@
 
 h1{
     color: #FF408C;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     line-height: 132%;
     letter-spacing: -1.6px;
@@ -33,7 +34,7 @@ h3{
 }
 
 span{
-    color: rgb(240, 33, 102);
+    color: #FF408C;
 }
 
 ul{
@@ -62,7 +63,7 @@ ul li{
 }
 
 .copyrights{
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .main{
@@ -73,23 +74,30 @@ ul li{
 }
 
 .fa-star-of-life{
-    color: rgb(240, 33, 102);
+    color: #FF408C;
     position: absolute;
     bottom: 130px;
     right: 200px;
     font-size: 200px;
     z-index: -2;
 }
+
+.ic{
+    display: flex;
+    flex-wrap: wrap;
+}
 .tools{
-    width: 280px;
-    height: auto;
+    width: 50px;
+    height: 30px;
+    object-fit: contain;
 }
 
 .me{
     width: 480px;
     height: 700px;
     flex-shrink: 0;
-    box-shadow: 15px 15px rgb(240, 33, 102);
+    object-fit: cover;
+    box-shadow: 15px 15px  #FF408C;
 }
 
 .box{
@@ -99,17 +107,19 @@ ul li{
 }
 
 
-
 .footer{
     padding-top: 55px;
     text-align: center;
+    width: 1152px;
+    height: 101px;
+    flex-shrink: 0;
 }
 
 
 .icons{
     text-align: center;
-    padding-left: 550px;
-    width: 130px;
+    padding-left: 520px;
+    width: 120px;
     display: flex;
     justify-content: space-between;
 }
