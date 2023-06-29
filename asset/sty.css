@@ -8,3 +8,30 @@
     width: 80%;
     margin: auto;
 }
+
+span{
+    color: rgb(240, 33, 102);
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tools{
+    width: 200px;
+    height: auto;
+}
+
+.me{
+    width: 500px;
+    height: auto;
+}
+
+.box{
+    width: 500px;
+    height: auto;
+    background-color: rgb(240, 33, 102);
+}
