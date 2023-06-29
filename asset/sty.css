@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    color: #3A3A3A;
     font-family: 'Poppins', sans-serif;
+    font-style: normal;
 }
 
 .body{
@@ -10,8 +12,24 @@
 }
 
 h1{
-    color: rgb(240, 33, 102);
-    font-size: 70px;
+    color: #FF408C;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 132%;
+    letter-spacing: -1.6px;
+}
+
+.nyi{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: -0.72px;
+}
+
+h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
 }
 
 span{
@@ -25,7 +43,14 @@ ul{
 
 ul li{
     list-style: none;
-    
+}
+
+.list{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: -0.72px;
 }
 
 .toool{
@@ -61,8 +86,9 @@ ul li{
 }
 
 .me{
-    width: 380px;
-    height: auto;
+    width: 480px;
+    height: 700px;
+    flex-shrink: 0;
     box-shadow: 15px 15px rgb(240, 33, 102);
 }
 
