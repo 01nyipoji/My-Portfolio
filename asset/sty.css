@@ -73,15 +73,19 @@ ul li{
     align-items: center;
 }
 
+.photo{
+    position: relative;
+}
+
 .vector{
     color: #FF408C;
     width: 158.28px;
     height: 161.847px;
     flex-shrink: 0;
     position: absolute;
-    bottom: -100px;
-    right: 100px;
-    z-index: -0.5;
+    bottom: -80px;
+    right: -70px;
+    z-index: 1;
 }
 
 .ic{
@@ -97,6 +101,8 @@ ul li{
 .me{
     width: 480px;
     height: 700px;
+    position: relative;
+    z-index: 2;
     object-fit: cover;
     box-shadow: 15px 15px  #FF408C;
 }
