@@ -76,6 +76,7 @@ ul li{
 
 .photo{
     position: relative;
+    width: 50%;
 }
 
 .vector{
@@ -100,8 +101,9 @@ ul li{
 }
 
 .me{
-    width: 480px;
-    height: 700px;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
     position: relative;
     z-index: 2;
     object-fit: cover;
@@ -146,4 +148,12 @@ ul li{
 
 .fa-linkedin{
     color: rgb(240, 33, 102);
+}
+
+@media max-width:600px {
+    font
+}
+
+@media min-width:600px {
+    
 }
