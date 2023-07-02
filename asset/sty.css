@@ -74,6 +74,10 @@ ul li{
     align-items: center;
 }
 
+.about{
+    width: 50%;
+}
+
 .photo{
     position: relative;
     width: 50%;
@@ -94,6 +98,7 @@ ul li{
     display: flex;
     flex-wrap: wrap;
 }
+
 .tools{
     width: 50px;
     height: 30px;
@@ -148,12 +153,4 @@ ul li{
 
 .fa-linkedin{
     color: #FF408C;
-}
-
-@media screen and  {
-    font
-}
-
-@media min-width:600px {
-    
 }
