@@ -5,12 +5,14 @@
     background: #FFF;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 .body{
     width: 80%;
     margin: auto;
-    padding: 20px;
+    
+    
 }
 
 h1{
@@ -70,27 +72,26 @@ ul li{
 .main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .about{
-    width: 50%;
+    width: 75%;
 }
 
 .photo{
     position: relative;
-    width: 50%;
+    width: 25%;
 }
 
 .vector{
     color: #FF408C;
     width: 158.28px;
     height: 161.847px;
-    flex-shrink: 0;
     position: absolute;
-    bottom: 100px;
-    right: 70px;
+    bottom: -75px;
+    right: 235px;
     z-index: 1;
 }
 
@@ -106,9 +107,8 @@ ul li{
 }
 
 .me{
-    width: 50%;
-    max-width: 100%;
-    height: auto;
+    width: 550px;
+    height: 760px;
     position: relative;
     z-index: 2;
     object-fit: cover;
