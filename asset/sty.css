@@ -85,8 +85,8 @@ ul li{
     height: 161.847px;
     flex-shrink: 0;
     position: absolute;
-    bottom: -80px;
-    right: -70px;
+    bottom: 100px;
+    right: 70px;
     z-index: 1;
 }
 
@@ -113,7 +113,7 @@ ul li{
 .box{
     width: 500px;
     height: auto;
-    background-color: rgb(240, 33, 102);
+    background-color:  #FF408C;
 }
 
 
@@ -135,22 +135,22 @@ ul li{
 }
 
 .fa-square-facebook{
-    color: rgb(240, 33, 102);
+    color:  #FF408C;
 }
 
 .fa-instagram{
-    color: rgb(240, 33, 102);
+    color:  #FF408C;
 }
 
 .fa-twitter{
-    color: rgb(240, 33, 102);
+    color:  #FF408C;
 }
 
 .fa-linkedin{
-    color: rgb(240, 33, 102);
+    color: #FF408C;
 }
 
-@media max-width:600px {
+@media screen and  {
     font
 }
 
