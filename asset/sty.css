@@ -11,20 +11,24 @@
 .body{
     width: 80%;
     margin: auto;
-    
-    
 }
 
 h1{
     color: #FF408C;
-    font-size: 65px;
+    font-size: 80px;
     font-weight: 700;
     line-height: 132%;
     letter-spacing: -1.6px;
 }
 
+.header{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
 .nyi{
-    font-size: 30px;
+    font-size: 20px;
+    padding-bottom: -10px;
     font-weight: 400;
     line-height: 132%;
     letter-spacing: -0.72px;
@@ -77,12 +81,21 @@ ul li{
 }
 
 .about{
-    width: 75%;
+    width: 70%;
 }
 
 .photo{
     position: relative;
-    width: 25%;
+    width: 30%;
+}
+
+.me{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    z-index: 2;
+    object-fit: cover;
+    box-shadow: 15px 15px  #FF408C;
 }
 
 .vector{
@@ -90,8 +103,8 @@ ul li{
     width: 158.28px;
     height: 161.847px;
     position: absolute;
-    bottom: -75px;
-    right: 235px;
+    bottom: -60px;
+    right: -10px;
     z-index: 1;
 }
 
@@ -106,14 +119,6 @@ ul li{
     object-fit: contain;
 }
 
-.me{
-    width: 550px;
-    height: 760px;
-    position: relative;
-    z-index: 2;
-    object-fit: cover;
-    box-shadow: 15px 15px  #FF408C;
-}
 
 .box{
     width: 500px;
@@ -125,18 +130,15 @@ ul li{
 .footer{
     padding-top: 100px;
     text-align: center;
-    width: 1152px;
-    height: 101px;
-    flex-shrink: 0;
 }
 
 
 .icons{
     text-align: center;
     padding-left: 520px;
-    width: 120px;
+    width: 180px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .fa-square-facebook{
