@@ -22,7 +22,7 @@ h1{
 }
 
 .header{
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     padding-top: 20px;
 }
 
@@ -104,7 +104,7 @@ ul li{
     height: 161.847px;
     position: absolute;
     bottom: -60px;
-    right: -10px;
+    right: -6px;
     z-index: 1;
 }
 
@@ -128,17 +128,19 @@ ul li{
 
 
 .footer{
-    padding-top: 100px;
+    padding-top: 40px;
     text-align: center;
 }
 
 
 .icons{
     text-align: center;
-    padding-left: 520px;
+    align-items: center;
+    padding-left: 620px;
     width: 180px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 16px;
 }
 
 .fa-square-facebook{
